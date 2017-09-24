@@ -1,0 +1,32 @@
+{
+    "name": "kanban",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node_modules/.bin/webpack-dev-server --progress"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RayShaw/kanban.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RayShaw/kanban/issues"
+    },
+    "homepage": "https://github.com/RayShaw/kanban#readme",
+    "dependencies": {
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "webpack": "^3.6.0",
+        "webpack-dev-server": "^2.8.2"
+    }
+}
