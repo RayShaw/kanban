@@ -8,6 +8,7 @@ export default class List extends Component {
                 id={card.id}
                 title={card.title}
                 description={card.description}
+                color={card.color}
                 tasks={card.tasks}
                 key={"card" + index}
             />
