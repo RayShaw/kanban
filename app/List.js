@@ -15,6 +15,7 @@ export default class List extends Component {
         color={card.color}
         tasks={card.tasks}
         key={"card" + index}
+        taskCallbacks={this.props.taskCallbacks}
       />
     })
     return (
@@ -28,5 +29,6 @@ export default class List extends Component {
 
 List.propTypes = {
   title: PropTypes.string.isRequired,
-  cards: PropTypes.arrayOf(PropTypes.object)
+  cards: PropTypes.arrayOf(PropTypes.object),
+  taskCallbacks: PropTypes.object
 };

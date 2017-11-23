@@ -1,44 +1,46 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import KanbanBoard from "./KanbanBoard.js";
+// import KanbanBoard from "./KanbanBoard.js";
+import KanbanBoardContainer from './KanbanBoardContainer';
 
-let cardsList = [
-  {
-    id: 1,
-    title: "Read the Book",
-    description: "I should read the **whole** book",
-    color: "#bd8d31",
-    status: "in-progress",
-    tasks: []
-  },
-  {
-    id: 2,
-    title: "Write some code",
-    description: "Code along with the samples in the book. " +
-    "The complete source cann be found at [github](https://github.com/RayShaw)",
-    color: "#3a7e28",
-    status: "todo",
-    tasks: [
-      {
-        id: 1,
-        name: "ContactList Example",
-        done: true
-      },
-      {
-        id: 2,
-        name: "Kanban Example",
-        done: false
-      },
-      {
-        id: 3,
-        name: "My own experiments",
-        done: false
-      }
-    ]
-  }
-]
+// let cardsList = [
+//   {
+//     id: 1,
+//     title: "Read the Book",
+//     description: "I should read the **whole** book",
+//     color: "#bd8d31",
+//     status: "in-progress",
+//     tasks: []
+//   },
+//   {
+//     id: 2,
+//     title: "Write some code",
+//     description: "Code along with the samples in the book. " +
+//       "The complete source cann be found at [github](https://github.com/RayShaw)",
+//     color: "#3a7e28",
+//     status: "todo",
+//     tasks: [
+//       {
+//         id: 1,
+//         name: "ContactList Example",
+//         done: true
+//       },
+//       {
+//         id: 2,
+//         name: "Kanban Example",
+//         done: false
+//       },
+//       {
+//         id: 3,
+//         name: "My own experiments",
+//         done: false
+//       }
+//     ]
+//   }
+// ]
 
 ReactDOM.render(
-  <KanbanBoard cards={cardsList} />,
+  // <KanbanBoard cards={cardsList} />,
+  <KanbanBoardContainer />,
   document.getElementById("root")
 );
