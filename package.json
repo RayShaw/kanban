@@ -18,10 +18,12 @@
 	},
 	"homepage": "https://github.com/RayShaw/kanban#readme",
 	"dependencies": {
+		"immutability-helper": "^2.5.0",
 		"marked": "^0.3.6",
 		"prop-types": "^15.6.0",
 		"react": "^15.6.1",
-		"react-dom": "^15.6.1"
+		"react-dom": "^15.6.1",
+		"react-transition-group": "^2.2.1"
 	},
 	"devDependencies": {
 		"babel-core": "^6.26.0",
